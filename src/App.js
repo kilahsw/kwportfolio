@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Background from './Photos/sunrise.jpg';
 import Developer from './components/Developer';
 import Writer from './components/Writer';
-import Actor from './components/Actor'
-import Footer from './components/Footer'
+import Actor from './components/Actor';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -20,33 +20,43 @@ function App() {
 		<div className='App'>
 			<div className='center'>
 				<div className='name'>
-					<h1>kilah willingham</h1>
+					<p
+						onClick={() => {
+							setDeveloperToggle(false);
+							setWriterToggle(false);
+							setActorToggle(false);
+						}}>
+						KILAH WILLINGHAM
+					</p>
 				</div>
 				<div className='titles'>
-					<h3
+					<p
+						className='menu'
 						onClick={() => {
 							setDeveloperToggle(!developerToggle);
 							setWriterToggle(false);
 							setActorToggle(false);
 						}}>
 						developer&nbsp;
-					</h3>
-					<h3
+					</p>
+					<p
+						className='menu'
 						onClick={() => {
 							setWriterToggle(!writerToggle);
 							setDeveloperToggle(false);
 							setActorToggle(false);
 						}}>
 						|&nbsp;writer&nbsp;
-					</h3>
-					<h3
+					</p>
+					<p
+						className='menu'
 						onClick={() => {
 							setActorToggle(!actorToggle);
 							setDeveloperToggle(false);
 							setWriterToggle(false);
 						}}>
 						|&nbsp;actor
-					</h3>
+					</p>
 				</div>
 			</div>
 
@@ -60,6 +70,9 @@ function App() {
 
 			<div className={`contentBox ${showActor}`}>
 				<Actor />
+			</div>
+			<div className='isabelle'>
+				<p>sculpture by Isabelle Albuquerque</p>
 			</div>
 			<div>
 				<Footer />

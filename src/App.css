@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 * {
 	/* border: 1px solid red; */
 	margin: 0;
@@ -6,7 +10,7 @@
 }
 
 .App {
-	background-image: url('https://i.imgur.com/4GQKGaK.jpg');
+	background-image: url('https://i.imgur.com/PXFnj5N.jpg');
 	height: 100vh;
 	width: 100vw;
 	background-attachment: fixed;
@@ -15,18 +19,43 @@
 	background-size: cover;
 }
 
-.titles {
-  display: flex;
+.name {
   width: 100%;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  padding-bottom: 10px;
 }
 
+.name :hover {
+  color: #934d56;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.titles :hover {
+  color: #934d56;
+}
+
+.menu {
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*center = top: 50% left: 50%*/
 .center {
 	position: fixed;
-	top: 50%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	color: white;
+	color: black;
 	z-index: 100;
 }
 
@@ -51,18 +80,47 @@
   justify-content: center;
   align-items: center;
 	position: fixed;
-	bottom: 0;
+	bottom: 0px;
 	width: 100%;
 	padding: 20px;
 	margin: 0 auto;
-	color: white;
+	color: black;
 	/* transform: translate(-50%, -50%); */
 }
 
-.meet {
-	padding: 10px;
+.footer :hover {
+  color: #934d56;
 }
 
-.fa-envelope, .fa-github, .fa-linkedin, .fa-instagram {
+.isabelle {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 61.5%;
+  left: 2%;
+  font-family: 'Tangerine', sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.isabelle :hover {
+  color: #934d56
+}
+
+.meet, .fa-envelope, .fa-github, .fa-linkedin, .fa-instagram {
   padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.meet {
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  width: 100vh;
+  height: 100%;
+  overflow: scroll;
 }

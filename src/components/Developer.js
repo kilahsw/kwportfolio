@@ -4,9 +4,9 @@ import '../App.css';
 
 const Developer = () => {
 	return (
-		<>
-			<p>projects go here</p>
-		</>
+		<div className='projects'>
+			<h1>Websites</h1>
+		</div>
 	);
 };
 export default Developer;
