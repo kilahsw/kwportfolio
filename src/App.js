@@ -11,10 +11,12 @@ function App() {
 	const [developerToggle, setDeveloperToggle] = useState(false);
 	const [writerToggle, setWriterToggle] = useState(false);
 	const [actorToggle, setActorToggle] = useState(false);
+	
 
 	const showDeveloper = developerToggle ? 'width1' : '';
 	const showWriter = writerToggle ? 'width1' : '';
 	const showActor = actorToggle ? 'width1' : '';
+	
 
 	return (
 		<div className='App'>
@@ -62,14 +64,41 @@ function App() {
 
 			<div className={`contentBox ${showDeveloper}`}>
 				<Developer />
+				<p
+					className='close'
+					onClick={() => {
+						setDeveloperToggle(false);
+						setWriterToggle(false);
+						setActorToggle(false);
+					}}>
+					CLOSE
+				</p>
 			</div>
 
 			<div className={`contentBox ${showWriter}`}>
 				<Writer />
+				<p
+					className='close'
+					onClick={() => {
+						setDeveloperToggle(false);
+						setWriterToggle(false);
+						setActorToggle(false);
+					}}>
+					CLOSE
+				</p>
 			</div>
 
 			<div className={`contentBox ${showActor}`}>
 				<Actor />
+				<p
+					className='close'
+					onClick={() => {
+						setDeveloperToggle(false);
+						setWriterToggle(false);
+						setActorToggle(false);
+					}}>
+					CLOSE
+				</p>
 			</div>
 			<div className='isabelle'>
 				<p>sculpture by Isabelle Albuquerque</p>

@@ -4,13 +4,10 @@ import Footer from './Footer';
 import '../App.css';
 
 const Meet = () => {
-	
 	return (
 		<div>
-			<p>about goes here</p>
-			{/* <p onClick={() => {
-                setMeetToggle(false)
-            }}>Close</p> */}
+			<img className='images' src='https://i.imgur.com/vNmyydG.jpg' />
+			<p>Hi, I'm Kilah</p>
 		</div>
 	);
 };

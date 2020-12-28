@@ -7,6 +7,7 @@ const Footer = () => {
 	const [meetToggle, setMeetToggle] = useState(false);
 
 	const showMeet = meetToggle ? 'width1' : '';
+	
 
 	return (
 		<div className='footer'>
@@ -14,7 +15,6 @@ const Footer = () => {
 				className='meet'
 				onClick={() => {
 					setMeetToggle(!meetToggle);
-					
 				}}>
 				meet kilah
 			</p>
@@ -24,6 +24,13 @@ const Footer = () => {
 			<i className='fab fa-instagram'></i>
 			<div className={`contentBox ${showMeet}`}>
 				<Meet />
+				<p
+					className='close'
+					onClick={() => {
+						setMeetToggle(false);
+					}}>
+					CLOSE
+				</p>
 			</div>
 		</div>
 	);
