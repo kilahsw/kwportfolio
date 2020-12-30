@@ -12,7 +12,7 @@ const Footer = () => {
 	return (
 		<div className='footer'>
 			<p
-				className='meet'
+				className='meetfooter'
 				onClick={() => {
 					setMeetToggle(!meetToggle);
 				}}>

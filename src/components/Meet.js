@@ -5,9 +5,15 @@ import '../App.css';
 
 const Meet = () => {
 	return (
-		<div>
+		<div className='meetcontent'>
 			<img className='images' src='https://i.imgur.com/vNmyydG.jpg' />
-			<p>Hi, I'm Kilah</p>
+			<p className='kilahdesc'>
+				Hi, my name is Kilah Willingham, and I've had a very interesting path to
+				software development. Over the last 20 years, I've enjoyed careers in
+				several fields: finance, startup system management, entertainment
+				production, studio management and commercial acting. I look forward to
+				bringing my experience and creativity to your projects.
+			</p>
 		</div>
 	);
 };
