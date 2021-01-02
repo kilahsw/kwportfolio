@@ -29,7 +29,7 @@ const Footer = () => {
 					onClick={() => {
 						setMeetToggle(false);
 					}}>
-					CLOSE
+					close
 				</p>
 			</div>
 		</div>

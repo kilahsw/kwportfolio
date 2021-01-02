@@ -28,7 +28,7 @@ function App() {
 							setWriterToggle(false);
 							setActorToggle(false);
 						}}>
-						KILAH WILLINGHAM
+						kilah willingham
 					</p>
 				</div>
 				<div className='titles'>
@@ -71,7 +71,7 @@ function App() {
 						setWriterToggle(false);
 						setActorToggle(false);
 					}}>
-					CLOSE
+					close
 				</p>
 			</div>
 
@@ -84,7 +84,7 @@ function App() {
 						setWriterToggle(false);
 						setActorToggle(false);
 					}}>
-					CLOSE
+					close
 				</p>
 			</div>
 
@@ -97,7 +97,7 @@ function App() {
 						setWriterToggle(false);
 						setActorToggle(false);
 					}}>
-					CLOSE
+					close
 				</p>
 			</div>
 			<div className='isabelle'>

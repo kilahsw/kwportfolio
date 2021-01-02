@@ -7,7 +7,7 @@ const Developer = () => {
 	return (
 		<div id='developer'>
 			<div className='projects'>
-				<h1 className='websites'>PROJECTS</h1>
+				<h1 className='pagetitles'>PROJECTS</h1>
 				<div className='heffington'>
 					<h2 className='projectTitles'>Heffington</h2>
 					<p className='projectdesc'>
