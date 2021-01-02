@@ -31,6 +31,7 @@
 	font-weight: bolder;
 	font-size: 39px;
 	padding-bottom: 5px;
+	text-shadow: 1px 1px black;
 }
 
 .name :hover {
@@ -73,7 +74,7 @@
 	top: 0;
 	right: 0;
 	transition: all 1s;
-	overflow: hidden;
+	overflow: scroll;
 	z-index: 100;
 }
 
@@ -92,12 +93,13 @@
 	padding: 20px;
 	margin: 0 auto;
 	color: black;
+	text-shadow: 1px 1px #707070;
 
 	/* transform: translate(-50%, -50%); */
 }
 
 .footer :hover {
-	color: #934d56;
+	color: #707070;
 }
 
 .isabelle {
