@@ -5,9 +5,9 @@ import '../App.css';
 const Actor = () => {
 	return (
 		<>
-			<h1 className='pagetitles'>Commercial Reel</h1>
+			<h1 className='pagetitles'>COMMERCIAL REEL</h1>
 			<p className='projectdesc'>
-				auditioning for and shooting commercials brings me joy. Here is a quick
+				auditioning for and shooting commercials brings me joy. here is a quick
 				highlight reel of some of the jobs I've done. <br />
 				<br /> coming soon!
 			</p>

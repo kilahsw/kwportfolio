@@ -9,13 +9,17 @@ const Writer = () => {
 			<p className='projectdesc'>
 				a journey from art to code. <br />
 				<br />
-				in javascript: <br /> <span>verb</span> <br />
-				executes a block of code depending on different cases. used to perform
+				Switch()
+				<br />
+				in javascript: <br />
+				-executes a block of code depending on different cases. used to perform
 				different actions based on conditions.
 				<br />
 				<br />
-				in life: <br /> <span>verb</span> <br /> change the position, direction, or
-				focus of.
+				Switch
+				<br />
+				in life: <br /> <span>(verb)</span> <br />
+				-to change the position, direction, or focus of.
 				<br />
 				<br /> coming soon.
 			</p>
