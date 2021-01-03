@@ -5,7 +5,8 @@ import '../App.css';
 const Writer = () => {
 	return (
 		<>
-			<p>blog goes here</p>
+			<h1 className='pagetitles'>Switch()</h1>
+			<p></p>
 		</>
 	);
 };

@@ -101,7 +101,9 @@ function App() {
 				</p>
 			</div>
 			<div className='isabelle'>
-				<p>sculpture by Isabelle Albuquerque</p>
+				<a href='http://www.nicodimgallery.com/artists/isabelle-albuquerque'>
+					<p className='isabellea'>sculpture by Isabelle Albuquerque</p>
+				</a>
 			</div>
 			<div>
 				<Footer />

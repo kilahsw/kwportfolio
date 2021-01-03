@@ -5,7 +5,11 @@ import '../App.css';
 const Actor = () => {
 	return (
 		<>
-			<p>reel goes here</p>
+			<h1 className='pagetitles'>Commercial Reel</h1>
+			<p className='descriptions'>
+				Auditioning for and shooting commercials is something I do because I
+				absolutely love it. I average about 1-3 commercials per year.
+			</p>
 		</>
 	);
 };
