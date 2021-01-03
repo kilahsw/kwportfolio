@@ -6,9 +6,10 @@ const Actor = () => {
 	return (
 		<>
 			<h1 className='pagetitles'>Commercial Reel</h1>
-			<p className='descriptions'>
-				Auditioning for and shooting commercials is something I do because I
-				absolutely love it. I average about 1-3 commercials per year.
+			<p className='projectdesc'>
+				auditioning for and shooting commercials brings me joy. Here is a quick
+				highlight reel of some of the jobs I've done. <br />
+				<br /> coming soon!
 			</p>
 		</>
 	);
