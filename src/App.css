@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&family=Raleway&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&display=swap');
+
 * {
 	/* border: 1px solid red; */
 	margin: 0;
@@ -33,9 +37,10 @@ a {
 
 .name {
 	width: 100%;
-	font-family: 'Pompiere', sans-serif;
-	font-weight: bolder;
-	font-size: 39px;
+	margin: auto;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
 	padding-bottom: 5px;
 	text-shadow: 1px 1px black;
 }
@@ -75,7 +80,7 @@ a {
 .contentBox {
 	height: 100%;
 	width: 0;
-	background-color: rgba(40, 40, 40, .9);
+	background-color: rgba(40, 40, 40, 0.9);
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -104,10 +109,12 @@ a {
 
 .isabelle {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 	position: fixed;
-	top: 63%;
-	left: 2%;
+	bottom: 42%;
+	width: 100%;
 	font-family: 'Tangerine', sans-serif;
 	font-weight: bolder;
 	font-size: 23px;
@@ -145,7 +152,7 @@ a {
 
 .meetfooter {
 	font-family: 'Raleway', sans-serif;
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: bold;
 	text-shadow: 1px 1px black;
 }
@@ -260,6 +267,7 @@ span {
 	}
 
 	.name {
+		padding-top: 8%;
 		font-size: 45px;
 	}
 
@@ -268,8 +276,8 @@ span {
 	}
 
 	.isabelle {
-		font-size: 24px;
-		top: 76%;
+		font-size: 30px;
+		bottom: 39%;
 	}
 
 	.pagetitles {
@@ -320,6 +328,7 @@ span {
 	}
 
 	.name {
+		padding-top: 20%;
 		font-size: 63px;
 	}
 
@@ -328,11 +337,13 @@ span {
 	}
 
 	.isabelle {
-		font-size: 30px;
+		font-size: 35px;
+		bottom: 23%;
 	}
 
 	.meetfooter {
 		text-shadow: none;
+		font-size: 23px;
 	}
 
 	.meetfooter,
@@ -372,7 +383,7 @@ span {
 
 @media screen and (min-width: 1440px) {
 	.name {
-		padding-top: 5%;
+		padding-top: 25%;
 		font-size: 89px;
 	}
 
@@ -381,6 +392,7 @@ span {
 	}
 
 	.isabelle {
+		bottom: 15%;
 		font-size: 34px;
 	}
 
@@ -420,7 +432,7 @@ span {
 
 @media screen and (min-width: 2560px) {
 	.name {
-		padding-top: 2%;
+		padding-top: 12%;
 		font-size: 150px;
 	}
 
@@ -429,7 +441,7 @@ span {
 	}
 
 	.isabelle {
-		top: 80%;
+		bottom: 12%;
 		font-size: 70px;
 	}
 

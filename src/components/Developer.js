@@ -13,9 +13,8 @@ const Developer = () => {
 						<h2 className='projecttitles'>Heffington</h2>
 					</a>
 					<p className='projectdesc'>
-						Client build using Gatsby. The goal of this build was to make a site
-						that was completely customizable for the owner. This was
-						accomplished by using Contentful as a headless CMS.
+						Client build using Gatsby with Contentful as a headless CMS. The goal of this build was to make a site
+						that was completely customizable. 
 					</p>
 					<img className='images' src='https://i.imgur.com/woWKENC.jpg' />
 					<div className='sitelinks'>
@@ -33,9 +32,9 @@ const Developer = () => {
 					</a>
 					<p className='projectdesc'>
 						Group project and full stack build using React (front end) and Mongo
-						DB (backend).
+						DB (backend). I built the backend for this project.
 					</p>
-					<img className='images' src='https://i.imgur.com/aD6WJi6.png' />
+					<img className='images' src='https://i.imgur.com/3nEGmFb.png' />
 					<div className='sitelinks'>
 						<a href='https://its-all-gouda-frontend.netlify.app/'>
 							<p className='linksite'>site |</p>
