@@ -338,7 +338,7 @@ span {
 
 	.isabelle {
 		font-size: 35px;
-		bottom: 23%;
+		bottom: 22%;
 	}
 
 	.meetfooter {
@@ -354,7 +354,8 @@ span {
 	}
 
 	.pagetitles {
-		margin-top: 8%;
+		margin-top: 6%;
+		font-size: 65px;
 	}
 
 	.projects {
@@ -392,7 +393,7 @@ span {
 	}
 
 	.isabelle {
-		bottom: 15%;
+		bottom: 13%;
 		font-size: 34px;
 	}
 
@@ -405,7 +406,7 @@ span {
 	}
 
 	.pagetitles {
-		font-size: 55px;
+		font-size: 75px;
 	}
 
 	.projects {
