@@ -75,7 +75,7 @@ a {
 .contentBox {
 	height: 100%;
 	width: 0;
-	background-color: rgba(40, 40, 40, 1);
+	background-color: rgba(40, 40, 40, .9);
 	position: fixed;
 	top: 0;
 	right: 0;
