@@ -195,15 +195,15 @@ a {
 	font-size: 40px;
 	font-weight: bolder;
 	padding-bottom: 15px;
-	color: #ff9f1c;
-	text-shadow: 1px 1px #ff9f1c;
+	color: #f3722c;
+	text-shadow: 1px 1px #f3722c;
 }
 
 .projecttitles {
 	font-family: 'Pompiere';
 	font-weight: bold;
 	font-size: 35px;
-	color: #2ec4b6;
+	color: #aacc00;
 	padding: 10px;
 	cursor: pointer;
 }
@@ -226,13 +226,13 @@ a {
 	padding-bottom: 35px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-	color: #2ec4b6;
+	color: #aacc00;
 	cursor: pointer;
 }
 
 /*added class to force correct color on site/code words. color changed when links were added*/
 .linksite {
-	color: #2ec4b6;
+	color: #aacc00;
 }
 
 .linksite:hover {
