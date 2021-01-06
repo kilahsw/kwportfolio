@@ -4,7 +4,7 @@ import '../App.css';
 
 const Writer = () => {
 	return (
-		<div>
+		<div className='writer'>
 			<h1 className='pagetitles'>Switch()</h1>
 			<p className='projectdesc'>
 				a journey from art to code. <br />
