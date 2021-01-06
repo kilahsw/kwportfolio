@@ -6,7 +6,7 @@ import '../App.css';
 const Meet = () => {
 	return (
 		<div className='meetcontent'>
-			<img className='images' src='https://i.imgur.com/vNmyydG.jpg' />
+			<img className='meetimage' src='https://i.imgur.com/vNmyydG.jpg' />
 			<p className='descriptions'>
 				Developer, Writer, Actor - an incredibly broad range of skills, but I've
 				always believed in doing all the things that make you feel alive. Art
