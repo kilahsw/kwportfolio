@@ -10,7 +10,7 @@ const Meet = () => {
 				alt="kilah's headshot"
 			/>
 			<p className='descriptions'>
-				<a href='https://drive.google.com/file/d/1ofunQULbgQZRgDhnRulTsjHOkoTphS6k/view?usp=sharing'>
+				<a href='https://drive.google.com/file/d/1CEraKRHNquBUOCWH0COi4dIznrF5oz-u/view?usp=sharing'>
 					<p className='resume'>Resume</p>
 				</a>
 				<br />
@@ -26,10 +26,10 @@ const Meet = () => {
 				And, developing is art. It is starting with nothing and building an app
 				that is equally inviting, responsive, and captivating. <br />
 				<br />
-				I've spent the last 18 years in various corporate management roles
-				learning the ins and outs of working with people. Those roles schooled
-				me on the importance of connections which, I believe, are the foundation
-				on which everything is built.
+				I've spent the last 15 years in various corporate management roles
+				learning the ins and outs of working with people. Those roles taught me
+				the importance of connections which, I believe, are the foundation on
+				which everything is built.
 				<br />
 				<br />
 				I'm a front end developer, who most enjoys working in React and Gatsby,
