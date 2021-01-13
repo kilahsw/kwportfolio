@@ -1,63 +1,45 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Background from './Photos/sunrise.jpg';
+import React, { useState } from 'react';
 import Developer from './components/Developer';
-import Writer from './components/Writer';
-import Actor from './components/Actor';
+import Creative from './components/Creative'
 import Footer from './components/Footer';
 import './App.css';
 
 function App() {
 	const [developerToggle, setDeveloperToggle] = useState(false);
-	const [writerToggle, setWriterToggle] = useState(false);
-	const [actorToggle, setActorToggle] = useState(false);
+	const [creativeToggle, setCreativeToggle] = useState(false);
 	
-
 	const showDeveloper = developerToggle ? 'width1' : '';
-	const showWriter = writerToggle ? 'width1' : '';
-	const showActor = actorToggle ? 'width1' : '';
+	const showCreative = creativeToggle ? 'width1' : '';
 	
-
 	return (
+
 		<div className='App'>
 			<div className='center'>
 				<div className='name'>
-					<p
+					<h2
 						onClick={() => {
 							setDeveloperToggle(false);
-							setWriterToggle(false);
-							setActorToggle(false);
+							setCreativeToggle(false);
 						}}>
-						kilah willingham
-					</p>
+						Kilah Willingham
+					</h2>
 				</div>
 				<div className='titles'>
 					<p
 						className='menu'
 						onClick={() => {
 							setDeveloperToggle(!developerToggle);
-							setWriterToggle(false);
-							setActorToggle(false);
+							setCreativeToggle(false);
 						}}>
 						developer&nbsp;
 					</p>
 					<p
 						className='menu'
 						onClick={() => {
-							setWriterToggle(!writerToggle);
+							setCreativeToggle(!creativeToggle);
 							setDeveloperToggle(false);
-							setActorToggle(false);
 						}}>
-						|&nbsp;writer&nbsp;
-					</p>
-					<p
-						className='menu'
-						onClick={() => {
-							setActorToggle(!actorToggle);
-							setDeveloperToggle(false);
-							setWriterToggle(false);
-						}}>
-						|&nbsp;actor
+						|&nbsp;creative&nbsp;
 					</p>
 				</div>
 			</div>
@@ -68,42 +50,23 @@ function App() {
 					className='close'
 					onClick={() => {
 						setDeveloperToggle(false);
-						setWriterToggle(false);
-						setActorToggle(false);
+						setCreativeToggle(false);
 					}}>
 					close
 				</p>
 			</div>
 
-			<div className={`contentBox ${showWriter}`}>
-				<Writer />
+			<div className={`contentBox ${showCreative}`}>
+				<Creative />
 				<p
 					className='close'
 					onClick={() => {
 						setDeveloperToggle(false);
-						setWriterToggle(false);
-						setActorToggle(false);
+						setCreativeToggle(false);
+						// setActorToggle(false);
 					}}>
 					close
 				</p>
-			</div>
-
-			<div className={`contentBox ${showActor}`}>
-				<Actor />
-				<p
-					className='close'
-					onClick={() => {
-						setDeveloperToggle(false);
-						setWriterToggle(false);
-						setActorToggle(false);
-					}}>
-					close
-				</p>
-			</div>
-			<div className='isabelle'>
-				<a href='http://www.nicodimgallery.com/artists/isabelle-albuquerque'>
-					<p className='isabellea'>sculpture by Isabelle Albuquerque</p>
-				</a>
 			</div>
 			<div>
 				<Footer />

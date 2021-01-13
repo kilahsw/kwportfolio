@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
+import React from 'react';
 import '../App.css';
 
 const Developer = () => {
@@ -16,7 +14,7 @@ const Developer = () => {
 						Client build using Gatsby with Contentful as a headless CMS. The goal of this build was to make a site
 						that was completely customizable. 
 					</p>
-					<img className='images' src='https://i.imgur.com/woWKENC.jpg' />
+					<img className='images' src='https://i.imgur.com/woWKENC.jpg' alt='ryan heffington thumbnail'/>
 					<div className='sitelinks'>
 						<a href='https://heffington.netlify.app/'>
 							<p className='linksite'>site |</p>
@@ -34,7 +32,7 @@ const Developer = () => {
 						Group project and full stack build using React (front end) and Mongo
 						DB (backend). I built the backend for this project.
 					</p>
-					<img className='images' src='https://i.imgur.com/3nEGmFb.png' />
+					<img className='images' src='https://i.imgur.com/3nEGmFb.png' alt='gouda thumbnail' />
 					<div className='sitelinks'>
 						<a href='https://its-all-gouda-frontend.netlify.app/'>
 							<p className='linksite'>site |</p>
