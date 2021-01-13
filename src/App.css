@@ -36,12 +36,7 @@ a {
 	font-size: 5vh;
 	padding-top: 4px;
 	padding-bottom: 5px;
-	/* text-shadow: 1px 1px black; */
 }
-
-/* .name :hover {
-	color: #2ec4b6;
-} */
 
 .titles {
 	display: flex;
@@ -56,9 +51,9 @@ a {
 }
 
 .menu {
-	margin-top: 90%;
+	margin-top: 80%;
 	font-family: 'Poppins', sans-serif;
-	font-size: 8vw;
+	font-size: 9vw;
 	font-weight: bold;
 	color: white;
 	cursor: pointer;
@@ -110,7 +105,7 @@ a {
 .fa-instagram {
 	padding: 10px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 5vw;
 }
 
 .fa-envelope:before,
@@ -171,7 +166,7 @@ a {
 	text-align: center;
 	margin-top: 20%;
 	font-family: 'Poppins', sans-serif;
-	font-size: 9vh;
+	font-size: 7vh;
 	width: 100vw;
 	font-weight: bolder;
 	padding-bottom: 20px;
@@ -190,7 +185,7 @@ a {
 .projecttitles {
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	font-size: 6vh;
+	font-size: 5vh;
 	color: #aacc00;
 	padding: 10px;
 	cursor: pointer;
@@ -239,6 +234,7 @@ a {
 .resume {
 	color: #aacc00;
 	text-align: center;
+	font-size: 5vw;
 }
 
 .resume:hover {
@@ -252,6 +248,7 @@ a {
 	padding: 10px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	font-size: 2.5vh;
 	color: white;
 }
 
@@ -305,8 +302,12 @@ a {
 		width: 20vw;
 	}
 
+	.resume {
+		font-size: 3.5vw;
+	}
+
 	.descriptions {
-		font-size: 18px;
+		font-size: 3vh;
 	}
 
 	.close {
@@ -339,6 +340,10 @@ a {
 
 	.meetcontent {
 		padding-top: 10%;
+	}
+
+	.resume {
+		font-size: 3vw;
 	}
 
 	.descriptions {
@@ -382,7 +387,11 @@ a {
 
 	.meetimage {
 		width: 300px;
-		margin-left: 10%;
+		margin-left: -2%;
+	}
+
+	.resume {
+		font-size: 2vw;
 	}
 
 	.close {
@@ -402,6 +411,7 @@ a {
 
 	.meetimage {
 		width: 400px;
+		margin-left: 12%;
 	}
 
 	.close {
