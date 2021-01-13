@@ -11,9 +11,16 @@ const Developer = () => {
 						<h2 className='projecttitles'>Heffington</h2>
 					</a>
 					<p className='projectdesc'>
-						Client build using Gatsby with Contentful as a headless CMS. The goal of this build was to make a completely customizable site. 
+						Client build using Gatsby with Contentful as a headless CMS. The
+						goal of this build was to make a completely customizable site.
+						<br />
+						<br />
 					</p>
-					<img className='images' src='https://i.imgur.com/woWKENC.jpg' alt='ryan heffington thumbnail'/>
+					<img
+						className='images'
+						src='https://i.imgur.com/woWKENC.jpg'
+						alt='ryan heffington thumbnail'
+					/>
 					<div className='sitelinks'>
 						<a href='https://heffington.netlify.app/'>
 							<p className='linksite'>site |</p>
@@ -28,10 +35,16 @@ const Developer = () => {
 						<h2 className='projecttitles'>It's All Gouda</h2>
 					</a>
 					<p className='projectdesc'>
-						Small team full stack build using React (front end) and Mongo
-						DB (backend). I led the effort on the back end for this project.
+						Small team full stack build using React (front end) and MongoDB
+						(backend). I led the effort on the back end.
+						<br />
+						<br />
 					</p>
-					<img className='images' src='https://i.imgur.com/3nEGmFb.png' alt='gouda thumbnail' />
+					<img
+						className='images'
+						src='https://i.imgur.com/3nEGmFb.png'
+						alt='gouda thumbnail'
+					/>
 					<div className='sitelinks'>
 						<a href='https://its-all-gouda-frontend.netlify.app/'>
 							<p className='linksite'>site |</p>
