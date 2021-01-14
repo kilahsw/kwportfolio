@@ -121,6 +121,11 @@ a {
 	text-shadow: 1px 1px black;
 }
 
+.meetfooter:hover,
+.fas.fa-envelope:hover {
+	color: #aacc00;
+}
+
 #developer {
 	align-items: center;
 }
