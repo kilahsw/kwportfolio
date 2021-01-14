@@ -143,6 +143,8 @@ a {
 }
 
 .meetimage {
+	display: flex;
+	justify-content: center;
 	border: 1px solid white;
 	border-radius: 4px;
 	padding: 5px;
@@ -294,7 +296,6 @@ a {
 
 	.meetimage {
 		width: 200px;
-		margin-left: -15%;
 	}
 
 	.meetcontent {
@@ -387,7 +388,6 @@ a {
 
 	.meetimage {
 		width: 300px;
-		margin-left: -2%;
 	}
 
 	.resume {
@@ -411,7 +411,6 @@ a {
 
 	.meetimage {
 		width: 400px;
-		margin-left: 12%;
 	}
 
 	.close {
